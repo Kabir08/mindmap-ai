@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindMap AI</title>
+  <style>
+    body {font-family: system-ui; margin:0; padding:12px; width:360px;}
+    textarea, button {width:100%; margin:8px 0;}
+    #map {border:1px solid #ccc; height:300px; overflow:auto;}
+    .btn {padding:8px; background:#0066ff; color:#fff; border:none; border-radius:4px;}
+  </style>
+</head>
+<body>
+  <h3>MindMap AI</h3>
+  <textarea id="input" rows="4" placeholder="Paste text or select on page..."></textarea>
+  <button class="btn" id="create">Create Mind-Map</button>
+  <button class="btn" id="eod">EOD Summary</button>
+  <div id="map"></div>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>
